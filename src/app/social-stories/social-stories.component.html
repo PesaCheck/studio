@@ -1,3 +1,21 @@
-<p>
-  social-stories works!
-</p>
+<button md-fab class="add-story-fab" [routerLink]="['../upload']"> 
+  <md-icon>add</md-icon>
+</button>
+<md-card class="col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
+  <md-card-content>
+    <md-list>
+      <!--<md-list-item *ngFor="let product of products | async">
+        <img md-list-avatar src="https://firebasestorage.googleapis.com/v0/b/agronet-3f250.appspot.com/o/CONTROL-70-DF.gif?alt=media&token=bf7eb7c1-df97-4637-bd45-614a8d3be8ae"
+          alt="CONTROL-70-DF">
+        <h4 md-line>{{ product.Name }}, {{product.Brand}} - {{ product.Packaging }}</h4>
+        <p md-line> {{ product.Description }} </p>
+      </md-list-item>-->
+      <md-list-item>
+        <img md-list-avatar src="https://firebasestorage.googleapis.com/v0/b/agronet-3f250.appspot.com/o/CONTROL-70-DF.gif?alt=media&token=bf7eb7c1-df97-4637-bd45-614a8d3be8ae"
+          alt="CONTROL-70-DF">
+        <h4 md-line>Story name here</h4>
+        <p md-line> Verdict here </p>
+      </md-list-item>
+    </md-list>
+  </md-card-content>
+</md-card>

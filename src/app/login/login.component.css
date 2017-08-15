@@ -1,0 +1,38 @@
+.lipaLogin{
+    margin-top: 64px;
+}
+
+.lipaLogin p{
+    text-align: center;
+}
+
+.lipaLogin .error{
+    text-align: left;
+    color: red;
+}
+
+.lipaLogin .email,
+.lipaLogin .password,
+.lipaLogin button{
+    width: 100%;
+}
+
+
+.lipaLogin button{
+    margin-bottom: 16px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.lipaLogin .facebook-login{
+    border-color: blue;
+}
+
+.lipaLogin .google-login{
+    border-color: red;
+}
+
+.loginTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+}

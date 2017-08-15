@@ -1,3 +1,18 @@
-<p>
-  login works!
-</p>
+<div class="row col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-4" >
+  <md-card class="lipaLogin ">
+    <md-card-subtitle class="loginTitle">
+      Login to access your Account
+    </md-card-subtitle>
+    <p [hidden]="!ShowError" class="error">{{ErrorMessage}}</p>
+    <md-input-container class="email">
+      <input mdInput placeholder="Email" type="email" [(ngModel)]="Email" name="Email">
+    </md-input-container>
+    <md-input-container class="password">
+      <input mdInput placeholder="Password" type="password" [(ngModel)]="Password" name="Password">
+    </md-input-container>
+    <button md-button color="primary" (click)="EmailLogin()">LOGIN</button>
+    <p>OR</p>
+    <!--<button md-raised-button class="facebook-login" (click)="FacebookLogin()">LOGIN WITH FACEBOOK</button>-->
+    <button md-raised-button class="google-login" (click)="GoogleLogin()">LOGIN WITH GOOGLE</button>
+  </md-card>
+</div>

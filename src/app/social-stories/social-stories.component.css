@@ -1,0 +1,7 @@
+.add-story-fab {
+  position: fixed;
+  right: 64px;
+  bottom: 64px;
+  color: #fff;
+  z-index: 1000;
+}
