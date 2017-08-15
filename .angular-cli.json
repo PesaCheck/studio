@@ -19,6 +19,8 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/flexboxgrid/css/flexboxgrid.css",
+        "./app/ng-material/ng-material.scss",
         "styles.css"
       ],
       "scripts": [],
