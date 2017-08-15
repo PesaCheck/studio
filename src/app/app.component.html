@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar>
+  <div class="row col-xs-12">
+    <a routerLink="/">
+      <img src="./assets/logo.png" alt="PesaCheck Logo Official" class="logo" />
+    </a>
+    <div class="col-xs end-xs">
+      <button md-raised-button color="primary" routerLink="/login">LOGIN</button>
+      <!--<button md-button color="primary" routerLink="/register">REGISTER</button>-->
+    </div>
+    <div class="col-xs end-xs" [hidden]="ShowWalletControls">
+      <button md-button color="primary" routerLink="/">LOGOUT</button>
+    </div>
+  </div>
+</md-toolbar>
+<router-outlet></router-outlet>
+
